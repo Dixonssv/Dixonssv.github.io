@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Dixonssv/Dixonssv.github.io/static/css/main.40163f80.css",
+    "main.js": "/Dixonssv/Dixonssv.github.io/static/js/main.c31256f4.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Dixonssv/Dixonssv.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/teseracto.mp4": "/Dixonssv/Dixonssv.github.io/static/media/teseracto.82048ed4a69e9390e474.mp4",
+    "index.html": "/Dixonssv/Dixonssv.github.io/index.html",
+    "main.40163f80.css.map": "/Dixonssv/Dixonssv.github.io/static/css/main.40163f80.css.map",
+    "main.c31256f4.js.map": "/Dixonssv/Dixonssv.github.io/static/js/main.c31256f4.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Dixonssv/Dixonssv.github.io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40163f80.css",
+    "static/js/main.c31256f4.js"
+  ]
+}
