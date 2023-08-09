@@ -1,0 +1,15 @@
+.dino {
+    fill: #999999;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transition: 0.2s all ease-in-out;
+    z-index: 10;
+    background-color: transparent;
+}
+
+.dino:hover {
+    scale: 1.2;
+    fill: white;
+    cursor: pointer;
+}

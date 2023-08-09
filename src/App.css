@@ -1,38 +1,148 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@700&family=IBM+Plex+Sans:wght@300&family=Quicksand:wght@300&display=swap');
+
+.color-palete {
+  color: #010F14;
+  color: #024346;
+  color: #463952;
+  color: #C31D50;
+  color: #E62D38;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: auto;
+}
+
+h1 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 60px;
+  padding: 10px 20px;
+}
+
+h2 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 20px;
+  padding: 0 20px;
+  color: white;
+  letter-spacing: 4px;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  padding: 0 20px;
+  color: white;
+  letter-spacing: 4px;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a.button {
+  text-decoration: none;
+  font-family: 'Archivo', sans-serif;
+  font-size: 20px;
+  padding: 10px 15px;
+  color: white;
+  position: relative;
+  display: inline-block;
+  margin: auto;
+}
+
+a.button::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 3px solid white;
+  border-right: none;
+  border-bottom: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: 0.3s all ease-in-out;
+}
+
+a.button::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 3px solid white;
+  border-left: none;
+  border-top: none;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  transition: 0.3s all ease-in-out;
+}
+
+a.button:hover::before, a.button:hover::after {
+  width: 60%;
+  height: 60%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.text-list {
+  list-style-type: disc;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 60px;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  background-color: none;
+  border: none;
+}
+
+.center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.zoomable {
+  transition: 0.3s all ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.zoomable:hover {
+  transform: scale(1.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dotted {
+  background-image:
+        radial-gradient(
+            circle at center,
+            #024346 0.2rem,
+            transparent 0
+        ), radial-gradient(
+            circle at center,
+            #024346 0.2rem,
+            transparent 0
+        );
+    background-size: 1.5rem 1.5rem;
+    background-position: 0 0, 0.75rem 0.75rem;
+    mask-image: linear-gradient(45deg, white 0%, transparent 50%);
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

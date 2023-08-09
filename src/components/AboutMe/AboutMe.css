@@ -1,0 +1,31 @@
+.about-me {
+    height: 100vh;
+    width: 100%;
+    background-color: #010F14;
+    position: relative;
+}
+
+.about-me-img {
+    width: 50%;
+    float: right;
+}
+
+.about-me-info {
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    /*background-color: #141210;*/
+    padding: 5%;
+    float: right;
+}
+
+.about-me-title {
+    /*color: #2BB789;*/
+    color: #C31D50;
+    padding-bottom: 40px;
+}
+
+.about-me-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

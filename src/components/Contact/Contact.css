@@ -1,0 +1,98 @@
+.contact {
+    height: 100vh;
+    background-color: #024346;
+    position: relative;
+}
+
+.section-break-triangle {
+    position: absolute;
+    top: -1px;
+    width: 100%;
+    height: 5%;
+    background-color: #010F14;
+    clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+    z-index: 1;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-links {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contact-info {
+    position: relative;
+    height: auto;
+    width: 50%;
+    margin: auto;
+    padding: 10% 0;
+    box-sizing: border-box;
+}
+
+.contact-info::before {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50%;
+    border: 3px solid white;
+    border-right: none;
+    border-bottom: none;
+    left: -50px;
+    top: 10%;
+    z-index: 10;
+}
+
+.contact-info::after {
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 10%;
+    border: 3px solid white;
+    border-left: none;
+    border-top: none;
+    right: -50px;
+    bottom: 10%;
+    z-index: 10;
+}
+
+.large-button {
+    color: white;
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 30px 20px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.contact-corner {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0;
+
+    background-image:
+        radial-gradient(
+            circle at center,
+            #010F14 0.2rem,
+            transparent 0
+        ), radial-gradient(
+            circle at center,
+            #010F14 0.2rem,
+            transparent 0
+        );
+    background-size: 1.5rem 1.5rem;
+    background-position: 0 0, 0.75rem 0.75rem;
+    mask-image: linear-gradient(-45deg, white 0%, transparent 60%);
+}

@@ -1,0 +1,58 @@
+.what-i-do {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    border: none;
+    box-sizing: border-box;
+}
+
+.what-i-do-info {
+    padding: 50px 20px;
+    position: absolute;
+    width: 60%;
+    z-index: 5;
+    right: 0;
+}
+
+.what-i-do-title {
+    position: relative;
+    text-align: end;
+    color: #2BB789;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.corner-border {
+    position: absolute;
+    height: 50px;
+    width: 50%;
+    border: 3px solid white;
+    border-right: none;
+    border-bottom: none;
+}
+
+.what-i-do-text {
+    width: 100%;
+}
+
+.background-video {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: 0.3s all ease-in-out;
+}
+
+.section-break-diag {
+    position: absolute;
+    bottom: -1px;
+    height: 100px;
+    width: 100%;
+    clip-path: polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%);
+    background-color: #010F14;
+    transform: translateZ(1);
+}
+

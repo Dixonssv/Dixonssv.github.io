@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import { useRef, useEffect } from 'react';
+
 import './App.css';
+import Dino from './components/Dino/Dino';
+import AboutMe from './components/AboutMe/AboutMe';
+import Skills from './components/Skills/Skills';
+import WhatIDo from './components/WhatIDo/WhatIDo';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 function App() {
+  const mainElem = useRef(null);
+
+  const scrollToBottom = () => {
+    console.log("Scrolling...");
+    mainElem.current.scrollIntoView({ behavior: 'smooth', block: "end"});
+  };
+
+  useEffect(() => {
+    console.log("Use effect...");
+    console.log(mainElem.current);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main ref={mainElem}>
+      <Dino documentRef={mainElem}></Dino>
+      <AboutMe></AboutMe>
+      <Skills></Skills>
+      <WhatIDo></WhatIDo>
+      <Projects></Projects>
+      <Contact></Contact>
+    </main>
   );
 }
 
