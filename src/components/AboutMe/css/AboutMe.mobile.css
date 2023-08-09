@@ -1,0 +1,15 @@
+@media only screen and (max-width: 640px) {
+    .about-me-img,
+    .about-me-info {
+        width: 100%;
+        float: none;
+    }
+    
+    .about-me-info {
+        padding: 5% 10%;
+    }
+    
+    .about-me-title {
+        padding-bottom: 30px;
+    }
+}

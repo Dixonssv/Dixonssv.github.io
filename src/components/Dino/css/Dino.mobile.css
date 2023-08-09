@@ -1,0 +1,6 @@
+@media only screen and (max-width: 640px) {
+    .dino {
+        left: auto;
+        right: 20px;
+    }
+}

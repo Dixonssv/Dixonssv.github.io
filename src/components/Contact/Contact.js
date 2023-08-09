@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Contact.css';
+import './css/Contact.mobile.css';
 import GitHubButton from '../GitHubButton/GitHubButton';
 
 const Contact = () => (
@@ -14,9 +15,9 @@ const Contact = () => (
       </div>
       <br></br>
       <div className='contact-links'>
-        <a className='large-button' style={{ backgroundColor: "#C31D50" }} href=''>
+        <button className='large-button' style={{ backgroundColor: "#C31D50" }} href=''>
           santiagosotov.dev@gmail.com
-        </a>
+        </button>
         <button className='large-button' style={{ backgroundColor: "#010F14" }} href=''>
           <GitHubButton></GitHubButton>
           Visita mi GitHub

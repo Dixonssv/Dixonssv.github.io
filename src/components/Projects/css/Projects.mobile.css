@@ -1,0 +1,39 @@
+@media only screen and (max-width: 640px) {
+    
+    .project {
+        padding: 10%;
+        height: 100vh;
+    }
+
+    .project-img-container {
+        height: 40%;
+    }
+        
+    .project-info {
+        padding: 0;
+        height: 60%;
+    }
+    
+    .project-img-container,
+    .project-info {
+        float: none;
+        width: 100%;
+    }
+    
+    .tilted-frame {
+        width: 100%;   
+    }
+    
+    .tilted-frame-back {
+        width: 100%;
+        transform: translate(-10%, 15%);
+    }
+
+    
+    .line-break {
+        width: 50%;
+        height: 0px;
+        border: 1px solid white;
+        margin: 10px;
+    }
+}

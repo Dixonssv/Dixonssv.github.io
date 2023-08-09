@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './WhatIDo.css';
+import './css/WhatIDo.mobile.css';
 import teseractVideo from "../../videos/teseracto.mp4";
 
 const WhatIDo = () => (

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Skills.css';
+import './css/Skills.mobile.css';
 
 const logos = [
   { description: "HTML", src: 'https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg' },

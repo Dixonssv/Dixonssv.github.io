@@ -1,0 +1,32 @@
+@media only screen and (max-width: 640px) {
+    
+    .contact-info {
+        width: 90%;
+        padding: 30% 5%;
+        box-sizing: border-box;
+    }
+    
+    .contact-info::before {
+        border: 2px solid white;
+        border-right: none;
+        border-bottom: none;
+        left: 0;
+    }
+    
+    .contact-info::after {
+        border: 2px solid white;
+        border-left: none;
+        border-top: none;
+        right: 0px;
+    }
+    
+    .large-button {
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+    
+    .contact-corner {
+        height: 100%;
+        width: 100%;
+    }
+}

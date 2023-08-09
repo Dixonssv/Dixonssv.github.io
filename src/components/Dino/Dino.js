@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Dino.css';
+import './css/Dino.mobile.css';
 
 const Dino = (props) => (
   <button  className="dino" 

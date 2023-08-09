@@ -66,6 +66,7 @@
     text-align: center;
     text-decoration: none;
     width: 100%;
+    min-height: 80px;
     padding: 30px 20px;
     font-family: 'Archivo', sans-serif;
     font-size: 20px;

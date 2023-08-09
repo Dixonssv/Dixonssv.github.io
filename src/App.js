@@ -1,6 +1,8 @@
 import { useRef, useEffect } from 'react';
 
 import './App.css';
+import './css/App.mobile.css';
+
 import Dino from './components/Dino/Dino';
 import AboutMe from './components/AboutMe/AboutMe';
 import Skills from './components/Skills/Skills';

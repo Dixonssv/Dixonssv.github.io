@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './AboutMe.css';
+import './css/AboutMe.mobile.css';
 
 const AboutMe = () => (
   <section>
