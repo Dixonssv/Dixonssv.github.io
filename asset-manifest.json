@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff757fcc.css",
+    "main.css": "/static/css/main.786f7290.css",
     "main.js": "/static/js/main.09992a86.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/space_invaders.gif": "/static/media/space_invaders.c1beeb6326b459a9aee7.gif",
@@ -9,12 +9,12 @@
     "static/media/actu.PNG": "/static/media/actu.322acc0f9001a53f5c85.PNG",
     "static/media/teseracto.mp4": "/static/media/teseracto.82048ed4a69e9390e474.mp4",
     "index.html": "/index.html",
-    "main.ff757fcc.css.map": "/static/css/main.ff757fcc.css.map",
+    "main.786f7290.css.map": "/static/css/main.786f7290.css.map",
     "main.09992a86.js.map": "/static/js/main.09992a86.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff757fcc.css",
+    "static/css/main.786f7290.css",
     "static/js/main.09992a86.js"
   ]
 }
