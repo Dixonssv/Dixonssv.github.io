@@ -1,28 +1,27 @@
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 480px) {
     
     .contact-info {
-        width: 90%;
-        padding: 30% 5%;
-        box-sizing: border-box;
+        width: 80%;
+        inset: 20% 10%;
     }
     
     .contact-info::before {
-        border: 2px solid white;
-        border-right: none;
-        border-bottom: none;
-        left: 0;
+        border-width: 2px;
+        top: -10%;
+        left: -5%;
     }
     
     .contact-info::after {
-        border: 2px solid white;
-        border-left: none;
-        border-top: none;
-        right: 0px;
+        border-width: 2px;
+        bottom: -10%;
+        right: -5%;
     }
     
     .large-button {
-        font-size: 15px;
-        letter-spacing: 3px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        min-height: 60px;
+        padding: 20px;
     }
     
     .contact-corner {

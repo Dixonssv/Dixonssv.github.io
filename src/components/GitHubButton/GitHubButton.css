@@ -1,6 +1,8 @@
 .github-button {
     /*fill:#151513; 
     color:#fff; */
+    width: 80px; 
+    height: 80px; 
     fill: white;
     color: #010F14;
     position: absolute; 
@@ -9,6 +11,11 @@
     border: 0; 
     z-index: 10;
     transform:scaleX(-1);
+}
+
+.animate-octo-arm
+.octo-arm {
+    animation:octocat-wave 560ms ease-in-out
 }
 
 .github-corner:hover 
@@ -31,5 +38,10 @@
     .github-corner 
     .octo-arm {
         animation:octocat-wave 560ms ease-in-out
+    }
+
+    .github-button {
+        width: 60px; 
+        height: 60px; 
     }
 }

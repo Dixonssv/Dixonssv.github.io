@@ -3,6 +3,10 @@ import PropTypes from 'prop-types';
 import './Projects.css';
 import './css/Projects.mobile.css';
 
+import ActuImg from '../../images/actu.PNG';
+import ExpedienteSanbornsGif from '../../images/expediente_sanborns.gif';
+import SpaceInvadersGif from '../../images/space_invaders.gif';
+
 const projects = [
   {
     title: "Sistema de Tutoría Académica",
@@ -14,7 +18,7 @@ const projects = [
       "Realizar consultas.",
       "Descargar evidencias en archivos comprimidos ZIP."
     ],
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_de_la_UAEMex.svg",
+    image: ActuImg,
     background: "",
     githubRepo: null,
     siteLink: "",
@@ -25,11 +29,28 @@ const projects = [
     description: "Front-End de expediente digital creado para el corporativo Sanborns.",
     features: [
       "Búsqueda de empleados.",
-      "Dashboard personalizable con tarjetas móviles y reajustables."
+      "Consume una API REST,",
+      "Dashboard personalizable con tarjetas móviles y reajustables.",
+      "Descarga de expediente en formato PDF",
     ],
     //image: "https://contentstatic.techgig.com/thumb/msid-77087595,width-460,resizemode-4/Guide-How-to-build-career-as-a-programmer-without-college-degree.jpg?336360",
-    image: "https://upload.wikimedia.org/wikipedia/commons/0/06/Logo_de_Grupo_Sanborns.svg",
+    image: ExpedienteSanbornsGif,
     githubRepo: null,
+    siteLink: null,
+  },
+  {
+    title: "Menace From The Stars",
+    tools: ["Java"],
+    description: "Proyecto personal. Videojuego 2D, procedural, en el que se deben destruír naves alienigenas.",
+    features: [
+      "Motor de videojuego creado completamente en Java.",
+      "Uso de hilos.",
+      "Comportamiento distinto para cada tipo de enemigo",
+      "Sistema de vida y de puntos",
+      "Animaciones creadas por código",
+    ],
+    image: SpaceInvadersGif,
+    githubRepo: "https://github.com/Dixonssv/MenaceFromTheStars",
     siteLink: null,
   }
 ]
@@ -61,11 +82,11 @@ function ProjectLinks(project) {
       <div className='center'>
         {
           project.githubRepo != null &&
-          <a className='button' href=''>Visita el repositorio</a>
+          <a className='button' href={project.githubRepo} target='_blank'>Visita el repositorio</a>
         }
         {
           project.siteLink !== null &&
-          <a className='button' href=''>Visita el sitio</a>
+          <a className='button' href={project.siteLink} target='_blank'>Visita el sitio</a>
         }
       </div>
     )
@@ -79,8 +100,8 @@ const Projects = () => (
         return (
           <li className='project' key={project.title}>
             <div className='project-img-container'>
-              <div className='tilted-frame tilted-frame-back dotted'></div>
-              <div className='tilted-frame zoomable'>
+              <div className='frame-back dotted'></div>
+              <div className='frame'>
                 <img className='project-img' src={project.image}></img>
               </div>
             </div>

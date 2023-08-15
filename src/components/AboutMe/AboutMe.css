@@ -5,18 +5,15 @@
     position: relative;
 }
 
-.about-me-img {
-    width: 50%;
-    float: right;
-}
-
 .about-me-info {
     height: 100%;
-    width: 50%;
+    width: 60%;
     box-sizing: border-box;
     /*background-color: #141210;*/
     padding: 5%;
-    float: right;
+    margin: auto;
+    position: absolute;
+    inset: 0px;
 }
 
 .about-me-title {
@@ -28,4 +25,31 @@
 .about-me-text {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.social-media {
+    width: 100%;
+    height: 30px;
+    margin: auto;
+}
+
+.social-media-list {
+    width: 50%;
+    height: 100%;
+    margin: 20px auto;
+}
+
+.social-media-item {
+    height: inherit;
+    width: 25%;
+    float: left;
+    padding: 0 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.social-media-link {
+    display: block;
+    height: 100%;
+    width: 100%;
 }

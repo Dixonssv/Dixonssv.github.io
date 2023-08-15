@@ -1,17 +1,18 @@
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 480px) {
     
     .project {
-        padding: 10%;
         height: 100vh;
     }
 
     .project-img-container {
-        height: 40%;
+        height: 30%;
+        top: 10%;
     }
         
     .project-info {
-        padding: 0;
-        height: 60%;
+        height: 50%;
+        bottom: 10%;
+        padding: 10%;
     }
     
     .project-img-container,
@@ -20,13 +21,15 @@
         width: 100%;
     }
     
-    .tilted-frame {
-        width: 100%;   
+    .frame {
+        height: 100%;
+        inset: 0 5%;
     }
     
-    .tilted-frame-back {
+    .frame-back {
+        height: 200%;
         width: 100%;
-        transform: translate(-10%, 15%);
+        top: 70%;
     }
 
     

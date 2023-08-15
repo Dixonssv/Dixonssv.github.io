@@ -19,8 +19,8 @@ function App() {
   };
 
   useEffect(() => {
-    console.log("Use effect...");
-    console.log(mainElem.current);
+    //console.log("Use effect...");
+    //console.log(mainElem.current);
   }, []);
 
   return (

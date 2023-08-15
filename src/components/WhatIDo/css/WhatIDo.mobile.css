@@ -1,4 +1,4 @@
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 480px) {
 
     .what-i-do-info {
         padding: 10%;
@@ -28,7 +28,8 @@
 
     .background-video {
         position: absolute;
-        width: 110%;
+        width: 100%;
+        top: 15%;
         left: -10%;
     }
 

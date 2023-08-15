@@ -24,11 +24,10 @@
 }
 
 .contact-info {
-    position: relative;
-    height: auto;
+    position: absolute;
+    height: 60%;
     width: 50%;
-    margin: auto;
-    padding: 10% 0;
+    inset: 20% 25%;
     box-sizing: border-box;
 }
 
@@ -40,9 +39,8 @@
     border: 3px solid white;
     border-right: none;
     border-bottom: none;
-    left: -50px;
-    top: 10%;
-    z-index: 10;
+    top: -10%;
+    left: -10%;
 }
 
 .contact-info::after {
@@ -53,9 +51,8 @@
     border: 3px solid white;
     border-left: none;
     border-top: none;
-    right: -50px;
-    bottom: 10%;
-    z-index: 10;
+    bottom: -10%;
+    right: -10%;
 }
 
 .large-button {

@@ -4,9 +4,9 @@
 }
 
 .project {
-    padding: 5%;
     height: 70vh;
     box-sizing: border-box;
+    position: relative;
 }
 
 .projects,
@@ -16,36 +16,38 @@
     width: 100%;
 }
 
-.project-img-container {
-    width: 40%;
-    position: relative;
-}
-
-.tilted-frame {
-    width: 100%;
-    height: 80%;
-    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
-    background-color: white;
-}
-
-.tilted-frame-back {
-    height: 80%;
-    width: 120%;
+.frame {
     position: absolute;
-    transform: translate(-10%, 20%);
+    width: 90%;
+    height: 60%;
+    inset: 20% 5%;
+    background-color: black;
+}
+
+.frame-back {
+    position: absolute;
+    height: 80%;
+    width: 300%;
+    top: 20%;
+    box-shadow: inset 0px 0px 20px 20px #010F14;
     background-color: transparent;
 }
 
+.project-img-container {
+    left: 0px;
+}
+
 .project-info {
-    width: 60%;
-    padding: 0 5%;
+    right: 0px;
+    padding: 5%;
     box-sizing: border-box;
 }
 
 .project-img-container,
 .project-info {
+    position: absolute;
     height: 100%;
-    float: left;
+    width: 50%;
     box-sizing: border-box;
 }
 
@@ -55,6 +57,7 @@
 
 .project-img {
     height: 100%;
+    max-width: 100%;
     display: block;
     margin: auto;
 }
