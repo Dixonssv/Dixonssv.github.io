@@ -1,21 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e32c00d5.css",
-    "main.js": "/static/js/main.126f11a1.js",
+    "main.css": "/static/css/main.1f3f166d.css",
+    "main.js": "/static/js/main.f92b9d8b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/space_invaders.gif": "/static/media/space_invaders.c1beeb6326b459a9aee7.gif",
-    "static/media/expediente_sanborns.gif": "/static/media/expediente_sanborns.f680dcebb0fc84a902c3.gif",
     "static/media/teseracto.gif": "/static/media/teseracto.af057103935716a04d43.gif",
-    "static/media/actu.PNG": "/static/media/actu.322acc0f9001a53f5c85.PNG",
     "static/media/CV_Santiago_Soto_Villacampa.pdf": "/static/media/CV_Santiago_Soto_Villacampa.dddc14159f08ac61d10b.pdf",
     "static/media/teseracto.mp4": "/static/media/teseracto.82048ed4a69e9390e474.mp4",
     "index.html": "/index.html",
-    "main.e32c00d5.css.map": "/static/css/main.e32c00d5.css.map",
-    "main.126f11a1.js.map": "/static/js/main.126f11a1.js.map",
+    "main.1f3f166d.css.map": "/static/css/main.1f3f166d.css.map",
+    "main.f92b9d8b.js.map": "/static/js/main.f92b9d8b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e32c00d5.css",
-    "static/js/main.126f11a1.js"
+    "static/css/main.1f3f166d.css",
+    "static/js/main.f92b9d8b.js"
   ]
 }
