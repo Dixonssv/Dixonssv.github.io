@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.1f3f166d.css",
-    "main.js": "/static/js/main.f92b9d8b.js",
+    "main.js": "/static/js/main.3e122494.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/teseracto.gif": "/static/media/teseracto.af057103935716a04d43.gif",
     "static/media/CV_Santiago_Soto_Villacampa.pdf": "/static/media/CV_Santiago_Soto_Villacampa.dddc14159f08ac61d10b.pdf",
     "static/media/teseracto.mp4": "/static/media/teseracto.82048ed4a69e9390e474.mp4",
     "index.html": "/index.html",
     "main.1f3f166d.css.map": "/static/css/main.1f3f166d.css.map",
-    "main.f92b9d8b.js.map": "/static/js/main.f92b9d8b.js.map",
+    "main.3e122494.js.map": "/static/js/main.3e122494.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f3f166d.css",
-    "static/js/main.f92b9d8b.js"
+    "static/js/main.3e122494.js"
   ]
 }
